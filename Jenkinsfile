@@ -3,7 +3,7 @@ pipeline {
     stages { 
          stage('Run Script') { 
              steps { 
-                 sh 'python3 app.py 5' 
+                 bat 'C:\\Users\\User\\AppData\\Python\\bin\\python.exe app.py 5' 
             } 
         } 
     } 
